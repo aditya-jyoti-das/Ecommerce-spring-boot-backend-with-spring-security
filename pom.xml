@@ -12,7 +12,7 @@
 	<artifactId>Ecommerce-java-spring-boot-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Ecommerce-java-spring-boot-backend</name>
-	<description>Ecoomerce java backend for react front end. </description>
+	<description>Ecommerce java backend for react front end. </description>
 	<url/>
 	<licenses>
 		<license/>
@@ -49,11 +49,20 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
 	</dependencies>
 
 	<build>
