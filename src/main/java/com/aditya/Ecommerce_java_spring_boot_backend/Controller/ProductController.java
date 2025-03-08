@@ -14,7 +14,6 @@ import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin("*")
 public class ProductController {
 
     @Autowired
